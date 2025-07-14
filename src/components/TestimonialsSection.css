@@ -1,0 +1,320 @@
+/* Testimonials Section Component Styles */
+
+.testimonials-box {
+  display: grid;
+  gap: 30px;
+}
+
+/* Testimonials */
+.testimonial-card {
+  background: var(--white);
+  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-md);
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonial-banner {
+  border-radius: 50%;
+  margin-inline: auto;
+  margin-block-end: 15px;
+}
+
+.testimonial-name {
+  color: var(--eerie-black);
+  font-size: var(--fs-6);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-block-end: 5px;
+}
+
+.testimonial-title {
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  margin-block-end: 15px;
+}
+
+.quotation-img {
+  margin-inline: auto;
+  margin-block-end: 10px;
+}
+
+.testimonial-desc {
+  max-width: 45ch;
+  margin-inline: auto;
+  color: var(--sonic-silver);
+  font-size: var(--fs-6);
+  line-height: 1.6;
+}
+
+/* CTA */
+.cta-container {
+  position: relative;
+  background: var(--salmon-pink);
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+}
+
+.cta-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hsla(0, 0%, 100%, 0.9);
+  padding: 30px;
+  border-radius: var(--border-radius-md);
+  text-align: center;
+  box-shadow: 0 10px 40px hsla(0, 0%, 0%, 0.1);
+}
+
+.cta-content .discount {
+  background: var(--eerie-black);
+  color: var(--white);
+  font-size: var(--fs-7);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: var(--border-radius-sm);
+  margin-block-end: 10px;
+  display: inline-block;
+}
+
+.cta-title {
+  color: var(--eerie-black);
+  font-size: var(--fs-2);
+  text-transform: uppercase;
+  line-height: 1;
+  margin-block-end: 5px;
+}
+
+.cta-text {
+  color: var(--sonic-silver);
+  font-size: var(--fs-6);
+  margin-block-end: 20px;
+}
+
+.cta-btn {
+  background: var(--salmon-pink);
+  color: var(--white);
+  font-size: var(--fs-7);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  padding: 8px 20px;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  transition: background var(--transition-timing);
+  cursor: pointer;
+}
+
+.cta-btn:hover {
+  background: var(--eerie-black);
+}
+
+/* Service */
+.service-container {
+  display: grid;
+  gap: 30px;
+}
+
+.service-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 20px;
+  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-md);
+  transition: border-color var(--transition-timing);
+}
+
+.service-item:hover {
+  border-color: var(--salmon-pink);
+}
+
+.service-icon {
+  background: var(--salmon-pink);
+  color: var(--white);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-sm);
+  font-size: 22px;
+  transition: background var(--transition-timing);
+}
+
+.service-icon ion-icon {
+  --ionicon-stroke-width: 40px;
+}
+
+.service-item:hover .service-icon {
+  background: var(--eerie-black);
+}
+
+.service-content {
+  flex-grow: 1;
+}
+
+.service-title {
+  color: var(--eerie-black);
+  font-size: var(--fs-6);
+  font-weight: var(--weight-600);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-block-end: 5px;
+}
+
+.service-desc {
+  color: var(--sonic-silver);
+  font-size: var(--fs-7);
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (min-width: 570px) {
+  .service-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .testimonials-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .cta-content {
+    padding: 40px;
+  }
+  
+  .cta-content .discount {
+    font-size: var(--fs-6);
+    padding: 8px 15px;
+  }
+  
+  .cta-title {
+    font-size: var(--fs-1);
+  }
+  
+  .cta-text {
+    font-size: var(--fs-5);
+  }
+  
+  .cta-btn {
+    font-size: var(--fs-6);
+    padding: 10px 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials-box {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .testimonial-card {
+    padding: 40px;
+  }
+  
+  .service {
+    grid-column: 1 / -1;
+  }
+  
+  .service-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .cta-container {
+    grid-column: 2 / 3;
+  }
+  
+  .service-container {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  
+  .service-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+.testimonials-section {
+  margin: 48px 0 0 0;
+  padding: 0 0 32px 0;
+}
+.testimonials-heading {
+  color: #4e4c55;
+  font-family: Georgia, serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  margin-bottom: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.testimonial-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(80,80,100,0.10);
+  padding: 32px 18px 24px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.testimonial-card:hover {
+  box-shadow: 0 8px 32px rgba(233,69,96,0.18);
+  transform: translateY(-4px) scale(1.04);
+}
+.testimonial-photo {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 2.5px solid #e94560;
+}
+.testimonial-quote {
+  font-size: 1.08rem;
+  color: #4e4c55;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.testimonial-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #e94560;
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+}
+@media (max-width: 600px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .testimonial-card {
+    padding: 18px 8px 14px 8px;
+  }
+} 
