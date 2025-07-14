@@ -100,23 +100,23 @@ The following screenshots are available in the project folder:
 
 | Page | Screenshot |
 |------|------------|
-| Section 1 | ![](./screenshots/Screenshot%202025-07-14%20201543.png) |
-| Section 2 | ![](./screenshots/Screenshot%202025-07-14%20201550.png) |
-| Section 3 | ![](./screenshots/Screenshot%202025-07-14%20201556.png) |
-| Section 4 | ![](./screenshots/Screenshot%202025-07-14%20201617.png) |
-| Section 5 | ![](./screenshots/Screenshot%202025-07-14%20201626.png) |
-| Section 6 | ![](./screenshots/Screenshot%202025-07-14%20201637.png) |
-| Section 7 | ![](./screenshots/Screenshot%202025-07-14%20201644.png) |
-| Section 8 | ![](./screenshots/Screenshot%202025-07-14%20201651.png) |
-| Section 9 | ![](./screenshots/Screenshot%202025-07-14%20201709.png) |
-| Section 10 | ![](./screenshots/Screenshot%202025-07-14%20201715.png) |
-| Section 11 | ![](./screenshots/Screenshot%202025-07-14%20201728.png) |
-| Section 12 | ![](./screenshots/Screenshot%202025-07-14%20201736.png) |
-| Section 13 | ![](./screenshots/Screenshot%202025-07-14%20201746.png) |
-| Section 14 | ![](./screenshots/Screenshot%202025-07-14%20201756.png) |
-| Section 15 | ![](./screenshots/Screenshot%202025-07-14%20201803.png) |
-| Section 16 | ![](./screenshots/Screenshot%202025-07-14%20201834.png) |
-| Section 17 | ![](./screenshots/Screenshot%202025-07-14%20201931.png) |
+|  1 | ![](./screenshot/Screenshot%202025-07-14%20201543.png) |
+|  2 | ![](./screenshot/Screenshot%202025-07-14%20201550.png) |
+|  3 | ![](./screenshot/Screenshot%202025-07-14%20201556.png) |
+|  4 | ![](./screenshot/Screenshot%202025-07-14%20201617.png) |
+|  5 | ![](./screenshot/Screenshot%202025-07-14%20201626.png) |
+|  6 | ![](./screenshot/Screenshot%202025-07-14%20201637.png) |
+|  7 | ![](./screenshot/Screenshot%202025-07-14%20201644.png) |
+| 8 | ![](./screenshot/Screenshot%202025-07-14%20201651.png) |
+|  9 | ![](./screenshot/Screenshot%202025-07-14%20201709.png) |
+|  10 | ![](./screenshot/Screenshot%202025-07-14%20201715.png) |
+|  11 | ![](./screenshot/Screenshot%202025-07-14%20201728.png) |
+|  12 | ![](./screenshot/Screenshot%202025-07-14%20201736.png) |
+|  13 | ![](./screenshot/Screenshot%202025-07-14%20201746.png) |
+|  14 | ![](./screenshot/Screenshot%202025-07-14%20201756.png) |
+|  15 | ![](./screenshot/Screenshot%202025-07-14%20201803.png) |
+|  16 | ![](./screenshot/Screenshot%202025-07-14%20201834.png) |
+|  17 | ![](./screenshot/Screenshot%202025-07-14%20201931.png) |
 
 ---
 
